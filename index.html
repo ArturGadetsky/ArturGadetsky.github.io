@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Grain компилятор</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="section">
+            <div class="nav">
+                <div>Mov Регистр, "f"</div>
+                <div>Mov Регистр, Регистр</div>
+                <div>Mov Регистр, A</div>
+                <div>Gef Регистр, Регистр</div>
+                <div>Jmp Регистр</div>
+                <div>Jft Регистр, Регистр</div>
+                <div>Jff Регистр, Регистр</div>
+                <div>Add Регистр, Регистр</div>
+            </div>
+            <div class="wrapper_text_input">
+                <textarea name="" id="text_input" cols="40" rows="50"></textarea>
+            </div>
+            <div class="wrapper_text_output">
+                <textarea name="" id="text_output" cols="40" rows="50"></textarea>
+            </div>
+        </div>
+        <div class="sub_menu">
+            <div class="compile">
+                Компилировать
+                <div class="logo"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/source.js"></script>
+    <script src="js/lexer.js"></script>
+    <script src="js/parser.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

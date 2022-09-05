@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea {
+    resize: none; /* Запрещаем изменять размер */
+    background-color: #2D2A2D;
+    border: 1px solid #1B181C;
+    align-items: center;
+    padding: 0.5em;
+}
+
+body{
+    background-color: #18181A;
+}
+
+.main{
+    background-color: #221F23;
+}
+
+.nav{
+    background-color: #2D2A2D;
+    height: 40em;
+    width: 11em;
+    padding: 0.5em;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.wrapper_text_input, .wrapper_text_output{
+    padding: 0.5em;
+    margin-left: 1em;
+}
+
+.sub_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+.compile {
+    background-color: #2D2A2D;
+    border-radius: 0.5em;
+    padding: 0.5em 0.25em;
+    display: flex;
+    justify-content: center;
+}
+.compile:hover{
+    background-color: #373437;
+    cursor: pointer;
+}
+.compile > .logo{
+    background-image: url(image/play_while.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1.3em;
+    width: 1.3em;
+    margin-left: 0.2em;
+}
