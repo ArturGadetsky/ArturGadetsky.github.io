@@ -74,6 +74,6 @@ const LEXER = function (content) {
             lexems.push(stringObject);
         }
     }
-    console.log(lexems);
+    //console.log(lexems);
     return lexems;
 };
